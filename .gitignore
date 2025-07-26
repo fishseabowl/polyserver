@@ -1,18 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
+node_modules
+.pnp
 .pnp.js
 
 # testing
-/coverage
+coverage
 
 # production
-/build
-/dist/
-/tmp/
-/.tmp/
+build
+dist/
+tmp/
+.tmp/
 
 # misc
 .DS_Store
@@ -27,5 +27,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # Exclude logs only in backend
-/logs/
-/*.log
+logs/
+*.log
