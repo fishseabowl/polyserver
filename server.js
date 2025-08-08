@@ -66,9 +66,7 @@ async function update() {
   }
 
   const originalId = unverified.id;
-  const titleHash = (
-    await getLow128BitsOfSHA256(unverified.title)
-  );
+  const titleHash = await getLow128BitsOfSHA256(unverified.title);
 
   let matchedContract = null;
 
